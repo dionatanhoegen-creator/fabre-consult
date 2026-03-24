@@ -3,14 +3,18 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-// LISTA DE LOGOS PLACEHOLDERS. No futuro, isso virá do Supabase (/admin)
-// Certifique-se de que os arquivos existem em /public/logos/
+// LISTA DE LOGOS PLACEHOLDERS. 
+// Certifique-se de que os nomes abaixo são EXATAMENTE iguais aos nomes dos arquivos na pasta public/logos/
 const clientLogos = [
   "/logos/logo1.png",
   "/logos/logo2.png",
   "/logos/logo3.png",
   "/logos/logo4.png",
   "/logos/logo5.png",
+  "/logos/logo6.png", // <- Novos logos adicionados aqui
+  "/logos/logo7.png",
+  "/logos/logo8.png",
+  "/logos/logo9.png",
 ];
 
 export default function ClientMarquee() {
